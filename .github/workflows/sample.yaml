@@ -1,0 +1,7 @@
+name: Provision tool infra
+on: [push]
+jobs:
+  Provision:
+    runs-on: ubuntu-latest
+    steps:
+      - run: terraform --version
