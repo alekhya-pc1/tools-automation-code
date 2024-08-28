@@ -1,7 +1,7 @@
 - name: Setup Prompt
   ansible.builtin.shell: set-prompt github-runner
 
-- name: Create github directory
+- name: Create new github directory
   ansible.builtin.file:
     path: /actions-runner
     state: directory
